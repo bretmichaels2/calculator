@@ -12,7 +12,7 @@ body {
   display: grid;
   width: 290px;
   margin: auto;
-  margin-top: 150px;
+  margin-top: 200px;
   padding: 10px;
   grid-template-columns: 65px 65px 65px 65px;
   grid-column-gap: 10px;
