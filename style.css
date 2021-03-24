@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+body {
+  background: white;
+  background-size: 24px 24px;
+  background-image:
+    linear-gradient(to left, #d1d1d1 1px, transparent 1px),
+    linear-gradient(to bottom, #d1d1d1 1px, transparent 1px); 
+  font-family: "Rubik";
+  font-size: 16px;
+  animation: bg 1.5s linear infinite;
+}
+
+@keyframes bg {
+  0% {background-position: 0px 0px;}
+  100% {background-position: 0px -24px;}
+}
+
+
+#container {
+  background: #ffc400;
+  display: grid;
+  width: 290px;
+  margin: auto;
+  margin-top: 150px;
+  padding: 10px;
+  grid-template-columns: 65px 65px 65px 65px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+#display {
+  background: white;
+  padding: 20px;
+  height: 20px;
+  grid-column: 1/5;
+  grid-row: 1;
+  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+button {
+  background: #ff5100;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-family: "Rubik";
+  border: none;
+}
+
+button:hover {
+  background: white;
+  color: #ff5100;
+}
+
+button:visited {
+  border: none;
+}
+
+#equals {
+  grid-row: 3/5;
+  grid-column: 4;
+  background: #009912;
+}
+
+#equals:hover {
+  background: white;
+  color: #009912;
+}
+
+#clear {
+  grid-row: 5/7;
+  grid-column: 4;
+  background: #009912;
+}
+
+#clear:hover {
+  background: white;
+  color: #009912;
+}
+
+#multiply {
+  background: #006adb;
+}
+
+#multiply:hover {
+  background: white;
+  color: #006adb;
+}
+
+#divide {
+  background: #006adb;
+}
+
+#divide:hover {
+  background: white;
+  color: #006adb;
+}
+
+#add {
+  background: #006adb;
+}
+
+#add:hover {
+  background: white;
+  color: #006adb;
+}
+
+#subtract {
+  background: #006adb;
+}
+
+#subtract:hover {
+  background: white;
+  color: #006adb;
+}
+
+#decimal {
+  background: #006adb;
+}
+
+#decimal:hover {
+  background: white;
+  color: #006adb;
+}
+
+#zero {
+  grid-column: 1/3;
+}
